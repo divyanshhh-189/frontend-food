@@ -65,7 +65,7 @@ function App() {
     formData.append("image", image);
 
     try {
-      const res = await fetch("https://backend-foodrecipe-unbl.onrender.com/api/recipe", {
+      const res = await fetch("https://backend-food-bpfo.onrender.com/api/recipe", {
         method: "POST",
         body: formData,
       });
